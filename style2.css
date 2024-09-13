@@ -1,0 +1,103 @@
+.hero{
+    /* height: 100vh; */
+    background-image: url('../image/Netflix\ log\ in\ page.jpg');
+    background-position:center ;
+    background-size: cover;
+    background-attachment:fixed ;
+    min-height: 500px;
+}
+:root{
+    --white-color:#fff;
+    --bg-color:#fff;
+    ---gray-color:#ccc;
+}
+
+body{
+    background: var(--white-color);
+}
+.hero{
+    background: url("../image/portfoliopic.jpg");
+    height: 100vh;
+    /* background-repeat: no repeat;
+    background-size: cover; */
+    background-attachment: fixed;
+
+}
+#skills i{
+    height: 100px;
+    width: 100px;
+}
+#portfolio img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+}
+footer.social-icons a {
+    width: 30px;
+    height: 30px;
+}
+#contact{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+@media screen and (max-width:990px){
+    #skills .card{
+        width: calc(100%/2-10px);
+    }
+}
+@media screen and (max-width:668px){
+    #skills .card,#portfolio .card-wrapper{
+        width: 100% !important;
+    }
+}
+.nav-item .nav-link{
+    color:#fff;
+}
+.back-to-top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    
+}
+.form-floating{
+    position: relative;
+}
+
+.divider-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .divider-custom-line{
+      background-color: #fff;
+      width: 110px;
+      height: 5px;
+      margin: 15px;
+    }
+    .divider-custom-line2{
+      background-color: red;
+      width: 110px;
+      height: 5px;
+      margin: 15px;
+    }
+
+    .form-floating .icons{
+        position: absolute;
+        right:20px;
+        top:50%;
+        font-size:22px;
+        line-height:30px;
+        width:20px;
+        align-items:center;
+    }
+
+    .form-floating .icons{
+        right: 15px;
+        font-size: 20px;
+    }
+    
